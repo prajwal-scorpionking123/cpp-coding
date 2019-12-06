@@ -80,7 +80,7 @@ void restordown(int a[],int i,int size)
         right=left+1;
         
     }
-    if(left==size && num<a[left])
+    if(left==size && num<a[left])//when right==size+1
     {
         a[i]=a[left];
         i=left;
